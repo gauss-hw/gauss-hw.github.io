@@ -1,0 +1,843 @@
+.cloun {
+  height: 4.167vw;
+}
+
+.img_box {
+  display: grid;
+}
+
+.bz-header {
+  box-shadow: 0.000vw 0.104vw 0.208vw 0.000vw rgba(0, 0, 0, 0.1);
+  border: 0;
+}
+
+.bz-header .main-header {
+  height: 4.167vw;
+}
+
+.bz-header .main-header .logo img {
+  width: 4.8vw;
+}
+
+.bz-header .main-header .logo img.img-block1 {
+  width: 4.8vw;
+}
+.img-block1 {
+  display: none;
+}
+.bz-header .main-header .nav-new .ul li {
+  min-width: initial;
+  margin: 0 0.885vw;
+}
+
+.bz-header .main-header .nav-new .ul li.active {
+  position: relative;
+}
+
+.bz-header .main-header .nav-new .ul li.active::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.052vw;
+  background: #C7000B;
+  left: 0;
+  bottom: 0;
+}
+
+.bz-header .main-header .nav-new .ul li a {
+  font-size: 0.729vw;
+  color: #252B3A;
+  line-height: 3.906vw;
+}
+
+/* 开始 */
+.img_box img {
+  width: 100%;
+  position: relative;
+}
+
+.mob_show {
+  display: none;
+}
+
+.mob_show {
+  display: none;
+}
+
+.box-tit {
+  font-family: "Huawei Sans";
+  position: absolute;
+  top: 9.4vw;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.box-tit h2 {
+  font-size: 2.5vw;
+  line-height: 1.5;
+  color: #333;
+  font-family: "Huawei Sans";
+  font-weight: bold;
+}
+
+.box-tit .font {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.042vw;
+}
+
+.con-sjzd .box-tit p {
+  display: flex;
+  align-items: center;
+  font-size: 1.46vw;
+  color: #333;
+  font-weight: 200;
+}
+
+.con-sjzd .box-tit p:nth-child(1) {
+  margin-right: 1vw;
+}
+
+.con-sjzd .box-tit p img {
+  width: 1.458vw;
+  margin-right: 0.5vw;
+}
+
+.bon-tainer {
+  font-family: "Huawei Sans";
+  background: url(../img/bg_img.jpg) no-repeat;
+  background-size: cover;
+  padding-bottom: 6.25vw;
+}
+
+.data-3 {
+  position: relative;
+  width: 82vw;
+  margin: 0 auto;
+}
+
+.z_sec3 {
+  padding-top: 3.125vw;
+}
+
+.mySwiperv1 {
+  width: 74vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.z_title {
+  font-size: 1.875vw;
+  font-family: "Huawei Sans";
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  padding-top: 5.2vw;
+}
+
+.z_sec1 {
+  width: 73vw;
+  margin: 0 auto;
+  padding-top: 3.125vw;
+}
+
+.z_sec1 p {
+  font-size: 1vw;
+  line-height: 1.5;
+  font-family: "Huawei Sans";
+  color: #000000;
+  margin-bottom: 1vw;
+}
+
+.swiper-pagination1 {
+  display: none;
+}
+
+.mySwiperv1 .swiper-button-next {
+  width: 2.2vw;
+  height: 2.2vw;
+  background: url(../img/right.svg) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  margin-top: -2.5rem;
+}
+
+.mySwiperv1 .swiper-button-prev {
+  width: 2.2vw;
+  height: 2.2vw;
+  position: absolute;
+  top: 50%;
+  margin-top: -2.5rem;
+  background: url(../img/left.svg) no-repeat;
+  background-size: cover;
+}
+
+.report-item {
+  background: #FFFFFF7F;
+  border-radius: 16px;
+  transition: all 0.5s ease 0s;
+  box-shadow: 0px 0 10px 0px #DFF0FE;
+  margin: 10px 0;
+  border: 1px solid #DFF0FE;
+  margin: 10px 20px;
+}
+
+.report-item:hover {
+  box-shadow: 0 4px 20px 0 rgba(1, 111, 217, 10%);
+  transform: translateY(-10px);
+}
+
+.new-box {
+  padding: 2.083vw 1.25vw;
+}
+
+.new-box p {
+  font-size: 0.73vw;
+  line-height: 1.5;
+  color: #000;
+}
+
+.news {
+  font-size: 1.04vw;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #000;
+}
+
+.date {
+  width: 4vw;
+  height: 2px;
+  background: #016FD9;
+  margin: 0.83vw 0;
+}
+
+.dates {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.04vw;
+}
+
+.dates img {
+  width: 0.8vw;
+}
+
+.dates p {
+  font-size: 0.94vw;
+  line-height: 1.5;
+  color: #000;
+  text-align: center;
+  padding-left: 0.4vw;
+}
+
+.z_max {
+  width: 82vw;
+  margin: 0 auto;
+}
+
+.z_sec6 {
+  margin-top: 3.125vw;
+}
+
+.content_box .list_title {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.9895vw 10.4062vw 0.9895vw 1.8229vw;
+  padding-right: 0.8854vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px 10px 0 0;
+  background: url(../img/title_bg.png) no-repeat center;
+  background-size: cover;
+}
+
+.agenda-box {
+  margin-left: 3vw;
+}
+
+.li-list {
+  position: relative;
+}
+
+.agenda-box .li {
+  position: relative;
+  margin-left: 2vw;
+}
+
+.line {
+  width: 1px;
+  height: 3vw;
+  background: #DFF0FE;
+  position: absolute;
+  top: 1.6vw;
+  left: 50%;
+  /* opacity: 0.6; */
+}
+
+.line2 {
+  height: 7.6vw;
+}
+
+.list-box-bg .line3 {
+  height: 16vw;
+}
+.list-box-bg .line4 {
+  height: 5.4vw;
+}
+
+.time,
+.session,
+.topics,
+.times {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.list_title .time {
+  width: 14vw;
+  position: relative;
+  margin-left: 1vw;
+}
+
+.time span,
+.session span,
+.topics span,
+.times span {
+  padding-right: 8px;
+}
+
+.time p,
+.session p,
+.topics p,
+.times p {
+  font-size: 1.04vw;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000;
+}
+
+.topic {
+  width: 24vw;
+  font-weight: bold;
+  color: #000;
+  font-size: 0.83vw;
+  line-height: 1.5;
+}
+
+.topic-box {
+  width: 35.6vw;
+}
+
+.topic p:nth-child(2) {
+  /*  */
+  font-weight: 400;
+}
+
+.topic2 {
+  width: 38vw;
+  display: flex;
+  font-weight: 400;
+}
+
+.pic-tal {
+  width: 30vw;
+}
+
+.topic3 {
+  width: 38vw;
+  display: flex;
+  font-weight: 400;
+  padding-top: 1.04vw;
+}
+
+.topic4 {
+  width: 38vw;
+  display: flex;
+  font-weight: 400;
+  padding-top: 1.04vw;
+}
+
+.session {
+  margin-right: 0;
+  width: 30.1937vw;
+  flex: 1;
+  /* width: 16vw;
+  display: flex;
+  align-items: center; */
+}
+
+.topics {
+  width: 34.8vw;
+}
+
+.times {
+  width: 8vw;
+}
+
+.content_box {
+  border: 2px solid #DFF0FE;
+  background: #FFFFFF7F;
+  border-radius: 16px;
+}
+
+.content_box .list_title .topic {
+  margin-right: 0;
+  width: 30.1937vw;
+  flex: 1;
+}
+
+.content_box .list_title .topic.Speakers {
+  flex: initial;
+  width: 22.5937vw;
+}
+
+/* .content_box .list_title .title_bg {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  right: 0;
+
+  border-radius: 0.52083vw 0.52083vw 0 0;
+} */
+
+.z_maxs {
+  width: 72vw;
+  margin: 0 auto;
+}
+
+.list-box {
+  position: relative;
+  /* padding-left: 2vw; */
+}
+
+.list-box:hover {
+  background: url(../img/title_bg2.png) no-repeat center;
+  background-size: cover;
+}
+
+.list-box:hover .topic .pic-tal {
+  color: #3385D4;
+  font-weight: bold;
+}
+
+.list-box .list {
+  position: relative;
+  width: auto;
+  padding: 2.083vw 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid #DFF0FE;
+  box-sizing: border-box;
+}
+
+.list-box .liste {
+  border-bottom: transparent;
+}
+
+.tos {
+  display: flex;
+  width: 54.6vw;
+}
+
+.list .time {
+  width: 12vw;
+  position: relative;
+  left: 0;
+}
+
+.list .time p {
+  font-size: 0.83vw;
+  font-family: "Huawei Sans";
+  margin-right: 1vw;
+}
+
+.list .time span {
+  font-size: 0.73vw;
+  padding: 3px 10px;
+  border-radius: 4px;
+  color: #016FD9;
+  background: #DCEEFF;
+}
+
+.list-box-bg {
+  position: absolute;
+  top: 2.2vw;
+}
+
+.list-box-bg_1, .list-box-bg_2, .list-box-bg_3 {
+  display: none;
+}
+
+
+
+@media (max-width: 900px) {
+
+  .bz-header .main-header {
+    height: 12.800vw;
+  }
+
+  .bz-header .e-cistern-l {
+    padding: 0 5.334vw;
+  }
+
+  .bz-header .main-header .logo {
+    margin-left: 3.4vw;
+  }
+
+  .bz-header .main-header .logo.logo1 {
+    position: absolute;
+    top: 1vw;
+    left: 5.334vw;
+    margin: 0;
+  }
+
+  .bz-header .main-header .logo img {
+    width: 15vw;
+  }
+
+  .bz-header .main-header .logo img.img-block1 {
+    width: 15vw;
+  }
+
+  .bz-header .main-header .nav-new .ul li.active::before {
+    display: none;
+  }
+
+  .bz-header .main-header .nav-new {
+    top: 12.800vw;
+  }
+
+  .bz-header .main-header .nav-new .ul li a {
+    font-size: 3.729vw;
+  }
+
+  .bz-header .main-header #mob-menubtn .icon {
+    width: 4.667vw;
+    height: 4.667vw;
+  }
+
+  .bz-header .main-header #close-menubtn .icon {
+    width: 4.667vw;
+    height: 4.667vw;
+  }
+
+}
+
+@media (max-width: 900px) {
+  .img-block1 {
+    display: block;
+  }
+  .bon-tainer {
+    padding-bottom: 12vw;
+  }
+
+  .content_box {
+    border-radius: 10px;
+  }
+
+  .pc_show {
+    display: none;
+  }
+
+  .mob_show {
+    display: block;
+  }
+
+  .box-tit {
+    top: 24vw;
+    width: 84%;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .box-tit h2 {
+    font-size: 6.4vw;
+  }
+
+  .box-tit .font {
+    flex-wrap: wrap;
+    padding-top: 4vw;
+  }
+
+  .con-sjzd .box-tit p {
+    width: 100%;
+    font-size: 3.2vw;
+    padding-bottom: 3vw;
+  }
+
+  .con-sjzd .box-tit p img {
+    width: 4.458vw;
+    margin-right: 1.5vw;
+  }
+
+  .z_max {
+    width: 90%;
+  }
+  .max_zers {
+    width: 95%;
+  }
+  .z_sec1 {
+    width: 100%;
+  }
+
+  .z_title {
+    padding-top: 10vw;
+    font-size: 5.33vw;
+  }
+
+  .data-3 {
+    width: 100%;
+  }
+
+  .z_sec1 p {
+    font-size: 3.733vw;
+    margin-bottom: 4vw;
+  }
+
+  .z_sec1 p:nth-child(2) {
+    margin-bottom: 0;
+  }
+
+  .mySwiperv1 {
+    width: 100%;
+  }
+
+  .mySwiperv1 .swiper-button-prev,
+  .mySwiperv1 .swiper-button-next {
+    display: none;
+  }
+
+  .swiper-pagination1 {
+    display: block;
+  }
+
+  .news {
+    font-size: 3.733vw;
+  }
+
+  .new-box p {
+    font-size: 3.2vw;
+  }
+
+  .new-box {
+    padding: 5.33vw 2.67vw 0;
+    height: 28vw;
+  }
+
+  .z_sec3 {
+    padding-top: 0;
+  }
+
+  .date {
+    margin: 2.67vw 0
+  }
+
+  .report-item {
+    margin: 8vw 2.5vw;
+  }
+
+  .mySwiperv1 .swiper-pagination-bullet {
+    background: #016FD97F;
+    opacity: 1;
+  }
+
+  .mySwiperv1 .swiper-pagination-bullet-active {
+    width: 30px;
+    height: 8px;
+    background: #016FD9;
+    border-radius: 20px;
+  }
+
+  .dates {
+    margin-top: 5.33vw;
+  }
+
+  .dates img {
+    width: 3.8vw;
+  }
+
+  .dates p {
+    font-size: 3.733vw;
+  }
+
+  .content_box .list_title {
+    padding: 4vw 2vw;
+  }
+
+  .agenda-box {
+    margin-left: 0;
+  }
+  .li-list .hide-box {
+    display: none;
+  }
+  .hide-box {
+    display: none;
+  }
+
+  .agenda-box .li {
+    margin-left: 0;
+  }
+
+  .list-box-bg-1 {
+    display: none;
+  }
+
+  .list-box-bg {
+    top: 16.6vw;
+    left: 31.6vw;
+    display: block;
+  }
+
+  .list-box-bg_1 {
+    display: block;
+    top: 32vw;
+  }
+
+  .li-list .list-box-bg_2 {
+    top: 47.6vw;
+    display: block;
+  }
+  
+  .li-list .list-box-bg_3 {
+    top: 36.8vw;
+    display: block;
+  }
+  .li-list .list-box-bg_4 {
+    top: 22vw;
+  }
+
+  .li-list .list-box-bg_5 {
+    top: 42.6vw;
+  }
+  .li-list .line5 {
+    height: 15vw;
+  }
+
+  .line {
+    top: 4vw;
+    height: 10.8vw;
+  }
+ 
+  .list-box-bg0 {
+    display: none;
+  }
+  .list-box-bg .line4 {
+    height: 15.2vw;
+}
+ 
+
+  .list-box-bg img,
+  .list-box-bg_1 img {
+    width: 2.667vw;
+  }
+
+  .list-box .list {
+    padding: 2.4vw 0 6.4vw;
+  }
+
+  .z_sec6 {
+    margin-top: 8vw;
+  }
+
+  .list-box:hover {
+    background: transparent;
+  }
+
+  .list_title .time {
+    width: 22vw;
+    margin-left: 4vw;
+    margin-right: 3vw;
+  }
+
+  .time p,
+  .session p {
+    font-size: 3.73vw;
+  }
+
+  .list .time {
+    width: 34vw;
+    margin-top: 4vw;
+    margin-left: 6vw;
+    display: block;
+  }
+
+  .list .time p {
+    font-size: 3.467vw;
+    font-weight: 400;
+  }
+  .list .time span {
+    font-size: 2.933vw;
+    padding: 6px 16px;
+    margin-top: 4vw;
+    display: inline-block;
+  }
+  .topics,
+  .times {
+    display: none;
+  }
+
+  .topic {
+    font-size: 3.467vw;
+    margin-top: 4vw;
+  }
+
+  .topic p:nth-child(2) {
+    color: #016FD9;
+    background: #EAF4FF;
+    display: inline-block;
+    padding: 0.4vw 2.2vw;
+    border-radius: 4px;
+  }
+
+  .tos {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 4vw;
+  }
+  .topic-box {
+    width: 88%;
+  }
+  .topic,
+  .topic2,
+  .topic3 {
+    width: 94%;
+    flex-wrap: wrap;
+  }
+
+  .pic-tal {
+    width: 100%;
+    padding-bottom: 1.6vw;
+  }
+
+  .topic2 {
+    font-size: 3.2vw;
+    margin-left: 4vw;
+  }
+
+  .topic3 {
+    font-size: 2.93vw;
+    margin-left: 4vw;
+  }
+  .topic4 {
+    font-size: 2.93vw;
+    margin-left: 4vw;
+  }
+
+  
+}
+
+@media (max-width: 500px) {
+  .new-box {
+    padding: 5.33vw 3.67vw 0;
+    height: 32vw;
+  }
+  .report-item {
+    margin: 8vw 2.5vw 10vw;
+  }
+}
